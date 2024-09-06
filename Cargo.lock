@@ -1125,7 +1125,7 @@ dependencies = [
  "bitflags 2.6.0",
  "cexpr",
  "clang-sys",
- "itertools 0.12.1",
+ "itertools 0.10.5",
  "lazy_static 1.5.0",
  "lazycell",
  "log",
@@ -3596,8 +3596,7 @@ dependencies = [
 [[package]]
 name = "golem-examples"
 version = "1.0.4"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b3b25b3566473aee1df5d0d40eb7e8fbc58a1d8819c1eae7c2b754670bcdb14b"
+source = "git+https://github.com/marijanp/golem-examples.git?branch=update-version#3391b378e1e1562facc9a0a1e7fe1b2b49004240"
 dependencies = [
  "Inflector",
  "cargo_metadata",
@@ -3788,8 +3787,7 @@ dependencies = [
 [[package]]
 name = "golem-wasm-rpc"
 version = "1.0.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "aeeb1d3e3cfd9c96a6032ed5969533b048ee6d995f1713e717ea5103916b6c70"
+source = "git+https://github.com/marijanp/wasm-rpc.git?branch=update-version#6d4ef3e6564b0b0aa6fbbe0545f370d0ea9e13ef"
 dependencies = [
  "arbitrary",
  "async-recursion",
@@ -4418,7 +4416,7 @@ dependencies = [
  "httpdate",
  "itoa",
  "pin-project-lite",
- "socket2 0.5.7",
+ "socket2 0.4.10",
  "tokio",
  "tower-service",
  "tracing",
@@ -6783,8 +6781,8 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "22505a5c94da8e3b7c2996394d1c933236c4d743e81a410bcca4e6989fc066a4"
 dependencies = [
  "bytes 1.7.1",
- "heck 0.5.0",
- "itertools 0.12.1",
+ "heck 0.4.1",
+ "itertools 0.10.5",
  "log",
  "multimap",
  "once_cell",
@@ -6804,7 +6802,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "81bddcdb20abf9501610992b6759a4c888aef7d1a7247ef75e2404275ac24af1"
 dependencies = [
  "anyhow",
- "itertools 0.12.1",
+ "itertools 0.10.5",
  "proc-macro2",
  "quote",
  "syn 2.0.74",

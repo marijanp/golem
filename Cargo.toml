@@ -197,6 +197,8 @@ wasmtime-wasi-http = { version = "=21.0.1" }
 webpki-roots = { version = "0.26.0" }
 
 [patch.crates-io]
+golem-wasm-rpc = { git = "https://github.com/marijanp/wasm-rpc.git", branch = "update-version" }
+golem-examples = { git = "https://github.com/marijanp/golem-examples.git", branch = "update-version" }
 wasmtime = { git = "https://github.com/golemcloud/wasmtime.git", branch = "golem-wasmtime-v21.0.1" }
 wasmtime-wasi = { git = "https://github.com/golemcloud/wasmtime.git", branch = "golem-wasmtime-v21.0.1" }
 wasmtime-wasi-http = { git = "https://github.com/golemcloud/wasmtime.git", branch = "golem-wasmtime-v21.0.1" }
